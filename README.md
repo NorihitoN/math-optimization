@@ -2,7 +2,8 @@
 
 ## Directory Structure
 
-math-optimization-repo/  # リポジトリのルート
+```
+math-optimization/  # リポジトリのルート
 │── README.md            # プロジェクトの概要、使用方法
 │── LICENSE              # ライセンス設定（MIT, GPL など）
 │── requirements.txt     # 必要なライブラリ（Python用）
@@ -34,29 +35,30 @@ math-optimization-repo/  # リポジトリのルート
 │── notebooks/          # Jupyter Notebook
 │   ├── linear_optimization.ipynb # 線形計画法の解説
 │   ├── metaheuristics.ipynb # メタヒューリスティクスの解説
-
+```
 
 ## Jupyter Notebook の命名規則
 各Notebookは、以下のプレフィックス（カテゴリー）を使用して管理されます。
 
-プレフィックス（カテゴリー）	説明
-LP_	線形計画法（Linear Programming）
-NLP_	非線形計画法（Nonlinear Programming）
-IP_	整数計画法（Integer Programming）
-CP_	制約プログラミング（Constraint Programming）
-GA_	遺伝的アルゴリズム（Genetic Algorithm）
-PSO_	粒子群最適化（Particle Swarm Optimization）
-DE_	差分進化（Differential Evolution）
-SA_	焼きなまし法（Simulated Annealing）
-TSP_	巡回セールスマン問題（Traveling Salesman Problem）
-Knapsack_	ナップザック問題（Knapsack Problem）
-Microgrid_	マイクログリッド最適化
-PHEV_	PHEVの充電最適化
-Meta_	メタヒューリスティクス全般
+| プレフィックス | 説明                             |
+|-----------------------------|----------------------------------|
+| LP_                         | 線形計画法（Linear Programming）  |
+| NLP_                        | 非線形計画法（Nonlinear Programming） |
+| IP_                         | 整数計画法（Integer Programming） |
+| CP_                         | 制約プログラミング（Constraint Programming） |
+| GA_                         | 遺伝的アルゴリズム（Genetic Algorithm） |
+| PSO_                        | 粒子群最適化（Particle Swarm Optimization） |
+| DE_                         | 差分進化（Differential Evolution） |
+| SA_                         | 焼きなまし法（Simulated Annealing） |
+| TSP_                        | 巡回セールスマン問題（Traveling Salesman Problem） |
+| Knapsack_                   | ナップザック問題（Knapsack Problem） |
+| Microgrid_                  | マイクログリッド最適化             |
+| PHEV_                       | PHEVの充電最適化                  |
+| Meta_                       | メタヒューリスティクス全般        |
 
-### Jupyter Notebook の一覧
+### Notebook の一覧
 
-`notebooks/` ディレクトリ内には、以下のJupyter Notebookが含まれています。
+`notebooks/` 
 
 - **LP_Simplex_Method_v1.ipynb**: シンプレックス法
 - **NLP_Gradient_Descent_v2.ipynb**: 勾配降下法
