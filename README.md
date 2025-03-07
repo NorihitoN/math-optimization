@@ -1,6 +1,6 @@
 # math-optimization
 
-## Directory structure
+## Directory Structure
 
 math-optimization-repo/  # リポジトリのルート
 │── README.md            # プロジェクトの概要、使用方法
@@ -54,8 +54,7 @@ Microgrid_	マイクログリッド最適化
 PHEV_	PHEVの充電最適化
 Meta_	メタヒューリスティクス全般
 
-
-## Jupyter Notebook の一覧
+### Jupyter Notebook の一覧
 
 `notebooks/` ディレクトリ内には、以下のJupyter Notebookが含まれています。
 
